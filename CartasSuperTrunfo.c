@@ -2,7 +2,7 @@
 
 int main() {
     
-    char carta[20];       
+    char pais[20];       
     char codigo[20];          
     char estado[20];     
     char cidade[20];    
@@ -13,10 +13,10 @@ int main() {
 
     
 
-      printf("======= carta ======== \n");
-      printf("digite sua carta:");
-      scanf("%s", &carta);
-      printf("digite o codigo da sua carta: \n");
+      printf("======= PAIS ======== \n");
+      printf("digite seus pai :");
+      scanf("%s", &pais);
+      printf("digite o codigo do seu pais: \n");
       scanf("%s", &codigo);
       printf("Digite seu estado: \n");
       scanf("%s", &estado);
@@ -32,7 +32,7 @@ int main() {
       scanf("%d", &pontosturisticos);
 
 
-   char carta1[20];
+   char pais1[20];
    char codigo1[20];
    char estado1[20];
    char cidade1[20];
@@ -41,13 +41,13 @@ int main() {
    float pib1;
    int pontosturisticos1;
      
-      printf("======= carta1 ======== \n");
+      printf("======= PAIS 1 ======== \n");
 
    
       
-      printf("digite sua carta: \n");
+      printf("digite seu pais: \n");
       scanf("%s", &carta1);
-      printf("digite o codigo da sua carta: \n");
+      printf("digite o codigo do seu pais: \n");
       scanf("%s", &codigo1);
       printf("Digite seu estado: \n");
       scanf("%s", &estado1);
@@ -64,9 +64,9 @@ int main() {
 
  if ( populacao > populacao1)
  {
-  printf(" carta venceu ");
+  printf(" PAIS venceu ");
  } else  {
-   printf("carta1 venceu");
+   printf(" PAIS 1 venceu");
  }
  
 
